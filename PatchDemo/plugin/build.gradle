@@ -1,0 +1,32 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+    compile 'com.android.tools.build:gradle:1.5.0'
+    compile 'commons-io:commons-io:2.4'
+    compile 'commons-codec:commons-codec:1.11'
+    compile 'org.ow2.asm:asm-all:5.0.3'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+
+group="com.bigman"
+archivesBaseName='patch-gradle'
+version ='1.0.0'
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: uri('../repo'))
+        }
+    }
+}

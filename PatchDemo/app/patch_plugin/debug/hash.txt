@@ -1,0 +1,5 @@
+com/example/administrator/patchdemo/MainActivity:420bbfbc63824d3082c87b7f1bb3bce61f49d10d
+com/example/administrator/patchdemo/patchlib/AssetUtils:1ed9e5c78111325ef4daa68f6253e78ad210820b
+com/example/administrator/patchdemo/patchlib/DexUtils:77841da758e1801d87277d79d2a57fe0623c0808
+com/example/administrator/patchdemo/patchlib/Patch:82459165ab1ca6464ed7e9a3176a900a07e657aa
+com/example/administrator/patchdemo/patchlib/ReflectionUtils:e6ed7dd0db320a51c84b4781e42b6ab4110edd87
